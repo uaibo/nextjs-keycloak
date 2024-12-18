@@ -16,5 +16,5 @@ You can run the keycloak server using the `keycloak-docker` config provided in t
 ## Setup Nextjs app
 - `cp .env.example .env`
 - setup env variables
-- yarn dev`
+- `yarn dev`
 - [done] 
