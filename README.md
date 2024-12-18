@@ -3,7 +3,7 @@
 
 ## Setup keycloak
 You can run the keycloak server using the `keycloak-docker` config provided in this repository.
-- cd `keycloak-docker`
+- `cd keycloak-docker`
 - `cp .env.example .env`
 - `docker compose up -d`
 - go to `http://localhost:8080` and login with u:`admin` p:`password`
