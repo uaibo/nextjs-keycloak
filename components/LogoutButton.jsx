@@ -23,6 +23,9 @@ export default function LogoutButton() {
     dispatch(clearKeycloak());
 
     // 2. remove any server session if you have one
+    fetch("/api/user/session", {
+      method: "DELETE",
+    });
 
     // 3. logout from keycloak
     if(keycloakInstance) {
