@@ -18,3 +18,15 @@ You can run the keycloak server using the `keycloak-docker` config provided in t
 - setup env variables
 - `yarn dev`
 - [done] 
+
+## Adjusting Access Token Lifetime in Keycloak
+Access token is used to keep the user logged in for a short time.
+- go to your **Reaml Settings**
+- click on tab **Tokens**
+- set the access token lifetime by adjusting **Access Token Lifespan**
+
+## Adjusting Refresh Token Lifetime in Keycloak
+Refresh token is used to get a new access token periodically. If you want to keep the user logged in for a long time, even if they return to the app days later, you need to adjust the **Refresh Token Lifetime**.
+- go to your **Reaml Settings**
+- click on tab **Sessions**
+- set the refresh token lifetime by adjusting **SSO Session Max** value.
